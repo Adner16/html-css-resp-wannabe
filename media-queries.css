@@ -5,7 +5,28 @@
         flex-wrap: wrap;
         width: 100vw;
         flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+        
+    }
+    body{
+        margin: 0;
     }
 
-}
+    #lezioni .row{
+        background-color: rgba(242,242,205,255);
+        /* text-align: center; */
+    }
+
+    #why .row{
+        background-color: rgba(242,242,205,255);
+    }
+    #lezioni .row>.left, #lezioni .row>.right{
+        width: 100vw;
+    }
+
+    #steps .row>.left, #steps .row>.central, #steps .row>.right{
+        width: 100vw;
+    }
     
+}
